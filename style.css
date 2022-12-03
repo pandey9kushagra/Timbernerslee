@@ -1,0 +1,103 @@
+body{
+    padding-top:800px;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    border-radius: 20px;
+    margin:50px;
+    height: 200px;
+}
+
+#welcome{
+    height: 800px;
+    background:linear-gradient(#1ab5d5,#7fd06f,#7e7272);
+    display:table;
+    width: 100%;
+    opacity: 0.9;
+    position:absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
+
+#mit{
+    display:table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line{
+    background-color: black;
+    width: 100px;
+    height: 5px;
+    margin:auto;
+}
+
+#bio{
+    padding: 50px;
+    text-align:center;
+    font-size: 30px;
+}
+
+p{
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    
+}
+
+#name{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.menu{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    list-style: none;
+    cursor: pointer;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+}
+
+.links{
+    font-size: larger;
+    display: inline;
+    padding: 25px;
+    font-family: serif;
+    
+}
+.links a{
+    color: azure !important; 
+}
+
+
+.links:hover{
+    background-color: #7e7272;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+}
+
+.tea{
+    font-size:25px;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+a{
+    text-decoration: none;
+    font-size:25px;
+}
+
+#con{
+    background-color:cornsilk;
+
+}
+
